@@ -1,16 +1,15 @@
 """
 collect user input and store as number
-initiialise count ro zero
-using for loop set count is >= 10
+for when count <= 10 remains true
     product = number * count
     print nummber x count = product
     count++
 end loop
+
 """
 
 number = int(input("Enter number: "))
-count = 0
-for count in range(1,11):
+for count in range(1,11,1):
     product = number * count
-    print(f" {number} x {count} = {product}")
-    count += 1
+    print(f" {number} X {count} = {product}")
+    
